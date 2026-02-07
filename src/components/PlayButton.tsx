@@ -5,13 +5,9 @@ import { appStore } from "@/lib/store";
 import s from "./ui/Footer.module.css";
 
 const IS_SAFARI = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-const IS_IOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-
-const PlayingWaveform = ({
+const IS_IOS = /iPad|iPhone|iPod/.test(navigonst PlayingWaveform = ({
   audioLoaded,
-  amplitudeLevels,
-}: {
-  audioLoaded: boolean;
+  amplitudeLevolean;
   amplitudeLevels: number[];
 }) => (
   <div className="w-[36px] h-[16px] relative left-[4px]">
